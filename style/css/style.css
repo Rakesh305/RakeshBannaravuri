@@ -104,6 +104,10 @@ h1 {
 	font-size: 100px;
 	font-size: clamp(50px, 5vw, 90px);
 	margin-bottom: 0.25em;
+	transition-property: width;
+	transition-delay: 1s;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
 }
 
 h2 {
@@ -111,8 +115,7 @@ h2 {
 	font-size: clamp(20px, 5vw, 35px);
 	margin-bottom: 0.75em;
 	align-items: center;
-	transition: ease-in;
-	transition-property: var(--border-color);
+
 }
 
 #socials {
