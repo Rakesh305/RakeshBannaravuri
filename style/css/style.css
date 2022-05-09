@@ -111,6 +111,8 @@ h2 {
 	font-size: clamp(20px, 5vw, 35px);
 	margin-bottom: 0.75em;
 	align-items: center;
+	transition: ease-in;
+	transition-property: var(--border-color);
 }
 
 #socials {
