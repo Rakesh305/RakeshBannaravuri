@@ -108,6 +108,8 @@ h1 {
 	transition-delay: 1s;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in;
+	cursor: pointer;
+    transition: transform .4s ease;
 }
 
 h2 {
