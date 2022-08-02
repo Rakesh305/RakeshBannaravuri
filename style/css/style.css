@@ -18,7 +18,7 @@ html {
 
 body {
 	color: var(--text-color);
-	background: blue;
+	background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
 	font-family: "Montserrat", sans-serif;
 	display: flex;
 	flex-direction: column;
