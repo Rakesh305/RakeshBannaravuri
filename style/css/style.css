@@ -110,8 +110,8 @@ h2 {
   font-size: clamp(20px, 5vw, 35px);
   margin-bottom: 0.75em;
   align-items: center;
-  animation: flip 4s infinite;
-  animation-delay: 2s;
+/*   animation: flip 4s infinite; */
+/*   animation-delay: 2s; */
 }
 
 @keyframes flip {
